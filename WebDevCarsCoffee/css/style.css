@@ -18,6 +18,8 @@ body{
 ul{
 	margin: 0;
 	padding: 0;
+	list-style: circle;
+	list-style-position: inside;	
 }
 
 .button_1{
@@ -32,13 +34,6 @@ ul{
 .button_1:hover{
 	font-weight: bold;
 	border-radius: 50px;
-}
-
-}
-
-ul{
-	list-style: circle;
-	list-style-position: inside;
 }
 
 .dark{
