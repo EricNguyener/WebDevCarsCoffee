@@ -167,8 +167,14 @@ aside#sidebar{
 
 aside#sidebar2{
 	float: left;
-	width: 30%;
+	width: 25%;
 	padding-top: 10px;
+	margin: 0 10% 0 10%;
+
+}
+
+#sidebar2 li{
+	text-align: center;
 }
 
 /* Main-col (Article) */
@@ -176,6 +182,36 @@ aside#sidebar2{
 article#main-col{
 	float: left;
 	width: 65%;
+}
+
+#linkBold a:hover{
+	font-weight: bold;
+}
+
+/* Contact */
+
+#contactPicture img{
+	width: 175px;
+	border-radius: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+#contactPicture img:hover{
+	cursor: pointer;
+	zoom: 1.5;
+	color: #1e90ff;
+}
+
+#middleText{
+	width: 40%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: -40px;
+	padding: 30px 15px 30px 15px;
 }
 
 /* Footer */
@@ -199,7 +235,8 @@ footer{
 	#newsletter form,
 	#boxes .box,
 	article#main-col,
-	aside#sidebar{
+	aside#sidebar,
+	aside#sidebar2{
 		float: none;
 		text-align: center;
 		width: 100%;
